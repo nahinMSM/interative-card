@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk';
+    box-sizing: border-box;
+}
+
+.bc-mobil {
+    display: none;
+}
+
+#contener {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 300px;
+}
+
+.card-front {
+    width: 447px;
+    height: 245px;
+    padding: 30px;
+    color: hsl(270, 3%, 87%);
+    background-image: url(/img/bg-card-front.png);
+    background-repeat: no-repeat;
+}
+
+.card-back {
+    width: 447px;
+    height: 245px;
+    margin: 35px 90px;
+    color: hsl(270, 3%, 87%);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    line-height: 245px;
+    background-image: url(/img/bg-card-back.png);
+    background-repeat: no-repeat;
+}
+
+.card-number {
+    font-size: 34px;
+    padding-top: 70px;
+}
+
+.card-name-date {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.card-date {
+    display: flex;
+}
+
+#form-box {
+    width: 300px;
+}
+
+
+.inputName {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputName .text-camp {
+    font-size: 12px;
+    padding: 8px;
+    margin: 2px 0 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(279, 6%, 55%);
+}
+
+.inputNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputNumber .number-camp {
+    font-size: 12px;
+    padding: 8px;
+    margin: 2px 0 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(279, 6%, 55%);
+}
+
+.box-input {
+    display: flex;
+    padding: 0 0 30px;
+}
+
+.MM-camp {
+    width: 80px;
+    font-size: 12px;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 5px;
+    border: 1px solid hsl(279, 6%, 55%);
+}
+
+.YY-camp {
+    width: 80px;
+    font-size: 12px;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 5px;
+    border: 1px solid hsl(279, 6%, 55%);
+}
+
+.CVC-camp {
+    width: 110px;
+    font-size: 12px;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 5px;
+    border: 1px solid hsl(279, 6%, 55%);
+}
+
+.bt-confirm {
+    width: 100%;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(270, 3%, 87%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bt-confirm:hover {
+    background-color: hsl(278, 94%, 30%);
+}
+
+.error-text {
+    margin-top: 30px;
+    color: hsl(0, 100%, 66%);
+}
+
+#thanks-box {
+    text-align: center;
+    width: 300px;
+    display: none;
+}
+
+#thanks-box h1 {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-weight: 100;
+    color: hsl(276, 13%, 23%);
+}
+
+#thanks-box p {
+    margin-top: 15px;
+    color: hsl(279, 6%, 55%);
+}
+
+.bt-Continue {
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(270, 3%, 87%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bt-Continue:hover {
+    background-color: hsl(278, 94%, 30%);
+}
+
+.attribution {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
