@@ -5,11 +5,11 @@ Esta é uma solução para o [desafio do aplicativo de calculadora de idade no F
 ## Índice
 
   - [O desafio](#o-desafio)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
+  - [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)
   - [O que aprendi](#o-que-aprendi)
-- [Autor](#autor)
-- [Agradecimentos](#acknowledgments)
+  - [Autor](#autor)
+  - [Agradecimentos](#acknowledgments)
 
 
 ### O desafio
