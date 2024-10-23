@@ -5,9 +5,7 @@ Esta é uma solução para o [desafio do aplicativo de calculadora de idade no F
 ## Índice
 
   - [O desafio](#o-desafio)
-  - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
-  - [O que aprendi](#o-que-aprendi)
   - [Autor](#autor)
   - [Agradecimentos](#acknowledgments)
 
@@ -34,11 +32,15 @@ Veja os estados de foco, ativo e foco para elementos interativos na página
 - Flexbox
 - Fluxo de trabalho móvel por último
 - JavaScript
-- [Node.js] 
+
+##
+### Tela Desktop
+![](layout/desktop.png)
+### Tela Mobile
+![](layout/mobile.png)
 
 ## Autor
 
-- Website - [Nahin Moreira](https://github.com/nahinMSM/)
 - Frontend Mentor - [@nahinMSM](https://www.frontendmentor.io/profile/nahinMSM)
 
 
